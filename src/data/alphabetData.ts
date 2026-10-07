@@ -1,0 +1,30 @@
+// src/data/alphabetData.ts
+import { AlphabetItem } from '../types';
+
+export const yorubaAlphabet: AlphabetItem[] = [
+  { id: '1', letter: 'A', word: 'Aṣọ', translation: 'Clothes', image: require('../../assets/images/aso.png'), audio: require('../../assets/audio/aso.mp3') },
+  { id: '2', letter: 'B', word: 'Bàtà', translation: 'Shoes', image: require('../../assets/images/bata.png'), audio: require('../../assets/audio/bata.mp3') },
+  { id: '3', letter: 'D', word: 'Dòdò', translation: 'Fried Plantain', image: require('../../assets/images/dodo.png'), audio: require('../../assets/audio/dodo.mp3') },
+  { id: '4', letter: 'E', word: 'Eja', translation: 'Fish', image: require('../../assets/images/eja.png'), audio: require('../../assets/audio/eja.mp3') },
+  { id: '5', letter: 'Ẹ', word: 'Ẹyin', translation: 'Egg', image: require('../../assets/images/eyin.png'), audio: require('../../assets/audio/eyin.mp3') },
+  { id: '6', letter: 'F', word: 'Fìlà', translation: 'Cap', image: require('../../assets/images/fila.png'), audio: require('../../assets/audio/fila.mp3') },
+  { id: '7', letter: 'G', word: 'Gèlè', translation: 'Headtie', image: require('../../assets/images/gele.png'), audio: require('../../assets/audio/gele.mp3') },
+  { id: '8', letter: 'GB', word: 'Gbàjùmọ̀', translation: 'Famous person', image: require('../../assets/images/gbajumo.png'), audio: require('../../assets/audio/gbajumo.mp3') },
+  { id: '9', letter: 'H', word: 'Hànùtù', translation: 'Shop', image: require('../../assets/images/hanutu.png'), audio: require('../../assets/audio/hanutu.mp3') },
+  { id: '10', letter: 'I', word: 'Iṣu', translation: 'Yam', image: require('../../assets/images/isu.png'), audio: require('../../assets/audio/isu.mp3') },
+  { id: '11', letter: 'J', word: 'Jígí', translation: 'Mirror', image: require('../../assets/images/jigi.png'), audio: require('../../assets/audio/jigi.mp3') },
+  { id: '12', letter: 'K', word: 'Kàkàkí', translation: 'Trumpet', image: require('../../assets/images/kakaki.png'), audio: require('../../assets/audio/kakaki.mp3') },
+  { id: '13', letter: 'L', word: 'Lámilámi', translation: 'Dragonfly', image: require('../../assets/images/lamilami.png'), audio: require('../../assets/audio/lamilami.mp3') },
+  { id: '14', letter: 'M', word: 'Mọ́tò', translation: 'Car', image: require('../../assets/images/moto.png'), audio: require('../../assets/audio/moto.mp3') },
+  { id: '15', letter: 'N', word: 'Nkan-iṣeré', translation: 'Toy', image: require('../../assets/images/nkanisere.png'), audio: require('../../assets/audio/nkanisere.mp3') },
+  { id: '16', letter: 'O', word: 'Òjò', translation: 'Rain', image: require('../../assets/images/ojo.png'), audio: require('../../assets/audio/ojo.mp3') },
+  { id: '17', letter: 'Ọ', word: 'Ọ̀gẹ̀dẹ̀', translation: 'Banana', image: require('../../assets/images/ogede.png'), audio: require('../../assets/audio/ogede.mp3') },
+  { id: '18', letter: 'P', word: 'Pápá', translation: 'Field / Park', image: require('../../assets/images/papa.png'), audio: require('../../assets/audio/papa.mp3') },
+  { id: '19', letter: 'R', word: 'Ràkúnmí', translation: 'Camel', image: require('../../assets/images/rakunmi.png'), audio: require('../../assets/audio/rakunmi.mp3') },
+  { id: '20', letter: 'S', word: 'Sálúbàta', translation: 'Slippers', image: require('../../assets/images/salubata.png'), audio: require('../../assets/audio/salubata.mp3') },
+  { id: '21', letter: 'Ṣ', word: 'Ṣòkòtò', translation: 'Trousers', image: require('../../assets/images/sokoto.png'), audio: require('../../assets/audio/sokoto.mp3') },
+  { id: '22', letter: 'T', word: 'Tábìlì', translation: 'Table', image: require('../../assets/images/tabili.png'), audio: require('../../assets/audio/tabili.mp3') },
+  { id: '23', letter: 'U', word: 'Uru', translation: 'Tail (Dialectal)', image: require('../../assets/images/uru.png'), audio: require('../../assets/audio/uru.mp3') },
+  { id: '24', letter: 'W', word: 'Wàrà', translation: 'Milk', image: require('../../assets/images/wara.png'), audio: require('../../assets/audio/wara.mp3') },
+  { id: '25', letter: 'Y', word: 'Yánmùyánmú', translation: 'Mosquito', image: require('../../assets/images/yanmuyanmu.png'), audio: require('../../assets/audio/yanmuyanmu.mp3') },
+];
